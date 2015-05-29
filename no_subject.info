@@ -1,0 +1,5 @@
+name = Remove Subject
+description = removes the subject field from the comment form.
+package = Epicodus Examples
+core = 7.x
+files[] = no_subject.module

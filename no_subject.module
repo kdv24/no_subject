@@ -6,6 +6,11 @@ function no_subject_form_alter(&$form, &$form_state, $form_id) {
     // print_r ($form_id);
     // print '</pre>';
     // }
+
+    //removes subject field from form
     $form ['subject']['#access'] = 0;
+
+    //removes user name in comment form
+    $form ['author']['#access'] = 0;
     }
 }
